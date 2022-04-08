@@ -1,5 +1,28 @@
 apiVersion: v1
 entries:
+  kali:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: Create kali chart
+    apiVersion: v2
+    appVersion: amd64
+    created: "2022-04-08T12:24:21.599232399Z"
+    description: Kali pod for penetration testing of cluster
+    digest: d44ed849d86813ab3dd98a99bd6d913175c525740a652236a2095c1f32088794
+    home: https://github.com/SimonMisencik/helm-charts
+    icon: https://w7.pngwing.com/pngs/600/114/png-transparent-dragon-kali-linux-android-linux-logo-silhouette-linux-thumbnail.png
+    keywords:
+    - kali
+    maintainers:
+    - email: simon.misencik@gmail.com
+      name: SimonMisencik
+    name: kali
+    sources:
+    - https://github.com/SimonMisencik/helm-charts/tree/main/charts/kali
+    urls:
+    - https://github.com/SimonMisencik/helm-charts/releases/download/kali-1.0.0/kali-1.0.0.tgz
+    version: 1.0.0
   ubuntu:
   - annotations:
       artifacthub.io/changes: |
@@ -97,4 +120,4 @@ entries:
     urls:
     - https://github.com/SimonMisencik/helm-charts/releases/download/ubuntu-1.0.0/ubuntu-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-08T10:02:29.862558681Z"
+generated: "2022-04-08T12:24:21.599251899Z"
