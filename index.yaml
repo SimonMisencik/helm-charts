@@ -4,6 +4,29 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: added
+          description: Add postgresql-client tool
+    apiVersion: v2
+    appVersion: "22.04"
+    created: "2022-04-08T10:02:29.862542281Z"
+    description: Ubuntu pod for testing or debugging
+    digest: 635ed6e71745ef6560819684a2673d8b788e20412ca78838a2e9754141bf23d7
+    home: https://github.com/SimonMisencik/helm-charts
+    icon: https://cdn-icons-png.flaticon.com/512/81/81270.png
+    keywords:
+    - ubuntu
+    - debug
+    maintainers:
+    - email: simon.misencik@gmail.com
+      name: SimonMisencik
+    name: ubuntu
+    sources:
+    - https://github.com/SimonMisencik/helm-charts
+    urls:
+    - https://github.com/SimonMisencik/helm-charts/releases/download/ubuntu-1.2.0/ubuntu-1.2.0.tgz
+    version: 1.2.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
           description: Add curl tool
         - kind: added
           description: Add nmap tool
@@ -74,4 +97,4 @@ entries:
     urls:
     - https://github.com/SimonMisencik/helm-charts/releases/download/ubuntu-1.0.0/ubuntu-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-08T09:27:43.668791565Z"
+generated: "2022-04-08T10:02:29.862558681Z"
