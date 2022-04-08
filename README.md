@@ -1,6 +1,6 @@
 # Open-charts Kubernetes Helm Charts
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Releases downloads](https://img.shields.io/github/downloads/simonmisencik/helm-charts/total.svg)](https://github.com/simonmisencik/helm-charts/releases)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/open-charts)](https://artifacthub.io/packages/search?repo=open-charts) [![Releases downloads](https://img.shields.io/github/downloads/simonmisencik/helm-charts/total.svg)](https://github.com/simonmisencik/helm-charts/releases)
 
 ## Usage
 
