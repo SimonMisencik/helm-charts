@@ -1,0 +1,18 @@
+apiVersion: v2
+name: kali
+version: 1.0.0
+description: Kali pod for penetration testing of cluster
+keywords:
+  - kali
+home: https://github.com/SimonMisencik/helm-charts
+sources:
+  - https://github.com/SimonMisencik/helm-charts/tree/main/charts/kali
+maintainers:
+  - name: SimonMisencik
+    email: simon.misencik@gmail.com
+icon: https://w7.pngwing.com/pngs/600/114/png-transparent-dragon-kali-linux-android-linux-logo-silhouette-linux-thumbnail.png
+appVersion: "amd64"
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: Create kali chart

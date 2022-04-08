@@ -1,0 +1,2 @@
+Image do not come with the "default" metapackage. You will need to run 
+$ apt install -y kali-linux-headless
