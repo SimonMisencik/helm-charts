@@ -1,7 +1,7 @@
 apiVersion: v2
 name: ubuntu
-version: 1.0.0
-description: Ubuntu pod
+version: 1.0.1
+description: Ubuntu pod for testing or debugging
 keywords:
   - ubuntu
   - debug
@@ -15,5 +15,5 @@ icon: https://cdn-icons-png.flaticon.com/512/81/81270.png
 appVersion: "22.04"
 annotations:
   artifacthub.io/changes: |
-    - kind: added
-      description: Create helm chart
+    - kind: changed
+      description: Add release name into pod name
