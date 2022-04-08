@@ -3,6 +3,29 @@ entries:
   ubuntu:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Add release name into pod name
+    apiVersion: v2
+    appVersion: "22.04"
+    created: "2022-04-08T07:56:06.311088508Z"
+    description: Ubuntu pod for testing or debugging
+    digest: 625ed1b3ad525c20c692272c5187dc5515abf8a5260f486797c79e841138c2d0
+    home: https://github.com/SimonMisencik/helm-charts
+    icon: https://cdn-icons-png.flaticon.com/512/81/81270.png
+    keywords:
+    - ubuntu
+    - debug
+    maintainers:
+    - email: simon.misencik@gmail.com
+      name: SimonMisencik
+    name: ubuntu
+    sources:
+    - https://github.com/SimonMisencik/helm-charts
+    urls:
+    - https://github.com/SimonMisencik/helm-charts/releases/download/ubuntu-1.0.1/ubuntu-1.0.1.tgz
+    version: 1.0.1
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: Create helm chart
     apiVersion: v2
@@ -24,4 +47,4 @@ entries:
     urls:
     - https://github.com/SimonMisencik/helm-charts/releases/download/ubuntu-1.0.0/ubuntu-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-08T07:24:09.424304395Z"
+generated: "2022-04-08T07:56:06.311096008Z"
