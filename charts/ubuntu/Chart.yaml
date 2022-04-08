@@ -16,8 +16,8 @@ appVersion: "22.04"
 annotations:
   artifacthub.io/changes: |
     - kind: added
-      description: Add curl
+      description: Add curl tool
     - kind: added
-      description: Add nmap 
+      description: Add nmap tool
     - kind: added
       description: Add startupProbe
