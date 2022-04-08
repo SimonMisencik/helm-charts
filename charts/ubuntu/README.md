@@ -1,6 +1,8 @@
 # ubuntu
 
-Ubuntu pod for testing or debugging
+Ubuntu pod for testing or debugging with tools:
+- curl
+- nmap
 
 ## Get Repo Info
 
