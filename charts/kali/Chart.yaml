@@ -1,6 +1,6 @@
 apiVersion: v2
 name: kali
-version: 1.0.0
+version: 1.0.1
 description: Kali pod for penetration testing of cluster
 keywords:
   - kali
@@ -10,9 +10,9 @@ sources:
 maintainers:
   - name: SimonMisencik
     email: simon.misencik@gmail.com
-icon: https://w7.pngwing.com/pngs/600/114/png-transparent-dragon-kali-linux-android-linux-logo-silhouette-linux-thumbnail.png
+icon: https://img.icons8.com/color/480/kali-linux.png
 appVersion: "amd64"
 annotations:
   artifacthub.io/changes: |
-    - kind: added
-      description: Create kali chart
+    - kind: changed
+      description: Change chart icon
