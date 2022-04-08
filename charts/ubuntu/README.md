@@ -3,6 +3,7 @@
 Ubuntu pod for testing or debugging with tools:
 - curl
 - nmap
+- postgresql-client
 
 ## Get Repo Info
 
