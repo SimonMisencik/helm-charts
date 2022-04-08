@@ -1,6 +1,6 @@
 apiVersion: v2
 name: ubuntu
-version: 1.0.1
+version: 1.1.0
 description: Ubuntu pod for testing or debugging
 keywords:
   - ubuntu
@@ -15,5 +15,9 @@ icon: https://cdn-icons-png.flaticon.com/512/81/81270.png
 appVersion: "22.04"
 annotations:
   artifacthub.io/changes: |
-    - kind: changed
-      description: Add release name into pod name
+    - kind: added
+      description: Add curl tool
+    - kind: added
+      description: Add nmap tool
+    - kind: added
+      description: Add startupProbe
