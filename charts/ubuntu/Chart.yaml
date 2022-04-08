@@ -15,5 +15,9 @@ icon: https://cdn-icons-png.flaticon.com/512/81/81270.png
 appVersion: "22.04"
 annotations:
   artifacthub.io/changes: |
-    - kind: changed
-      description: Add release name into pod name
+    - kind: added
+      description: Add curl
+    - kind: added
+      description: Add nmap 
+    - kind: added
+      description: Add startupProbe

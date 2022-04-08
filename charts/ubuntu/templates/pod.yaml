@@ -8,6 +8,14 @@ spec:
   containers:
     - name: ubuntu
       image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
-      command: ["/bin/sleep", "3650d"]
+      args:
+        - sh
+        - -c
+        - apt update && apt install curl -y && apt install nmap -y && touch /tmp/healthy > STATUS && sleep 365d
       imagePullPolicy: IfNotPresent
+      startupProbe:
+        exec:
+          command:
+          - cat
+          - /tmp/healthy
   restartPolicy: Always
