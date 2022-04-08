@@ -13,4 +13,4 @@ Once Helm is set up properly, add the repo as follows:
 helm repo add open https://simonmisencik.github.io/helm-charts
 ```
 
-You can then run `helm search repo open` to see the charts.
+You can then run `helm search repo open/` to see the charts.
