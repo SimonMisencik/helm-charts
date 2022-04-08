@@ -1,0 +1,19 @@
+apiVersion: v2
+name: ubuntu
+version: 1.0.0
+description: Ubuntu pod
+keywords:
+  - ubuntu
+  - debug
+home: https://github.com/SimonMisencik/helm-charts
+sources:
+  - https://github.com/SimonMisencik/helm-charts
+maintainers:
+  - name: SimonMisencik
+    email: simon.misencik@gmail.com
+icon: https://cdn-icons-png.flaticon.com/512/81/81270.png 
+appVersion: "22.04"
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: Create helm chart
