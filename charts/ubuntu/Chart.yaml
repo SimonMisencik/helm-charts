@@ -16,4 +16,4 @@ appVersion: "22.04"
 annotations:
   artifacthub.io/changes: |
     - kind: added
-      description: Add postgresql-client tool
+      description: Add postgresql-client tool.
