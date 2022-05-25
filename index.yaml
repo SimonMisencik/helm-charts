@@ -48,6 +48,29 @@ entries:
   ubuntu:
   - annotations:
       artifacthub.io/changes: |
+        - kind: fixed
+          description: Fix startup probe
+    apiVersion: v2
+    appVersion: "22.04"
+    created: "2022-05-25T08:29:10.431680132Z"
+    description: Ubuntu pod for testing or debugging
+    digest: 51579bbb3a931b0c45e6eff1af5952989761c417380aacd98a85399ba95a2854
+    home: https://github.com/SimonMisencik/helm-charts
+    icon: https://cdn-icons-png.flaticon.com/512/81/81270.png
+    keywords:
+    - ubuntu
+    - debug
+    maintainers:
+    - email: simon.misencik@gmail.com
+      name: SimonMisencik
+    name: ubuntu
+    sources:
+    - https://github.com/SimonMisencik/helm-charts
+    urls:
+    - https://github.com/SimonMisencik/helm-charts/releases/download/ubuntu-1.2.1/ubuntu-1.2.1.tgz
+    version: 1.2.1
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: Add postgresql-client tool
     apiVersion: v2
@@ -142,4 +165,4 @@ entries:
     urls:
     - https://github.com/SimonMisencik/helm-charts/releases/download/ubuntu-1.0.0/ubuntu-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-08T14:14:52.046044273Z"
+generated: "2022-05-25T08:29:10.431706932Z"
