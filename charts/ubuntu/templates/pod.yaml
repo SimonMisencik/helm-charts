@@ -18,4 +18,6 @@ spec:
           command:
           - cat
           - /tmp/healthy
+        failureThreshold: 500
+        periodSeconds: 2
   restartPolicy: Always
