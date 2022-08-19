@@ -11,6 +11,9 @@ metadata:
   annotations:
     {{- toYaml . | nindent 4 }}
   {{- end }}
+    {{- if .Values.middleware.enabled -}}
+    {{- include "basic-app.middleware-name" . | nindent 4 }}
+    {{- end }}
 spec:
   defaultBackend:
     service:

@@ -49,3 +49,10 @@ Selector labels
 app.kubernetes.io/name: {{ include "basic-app.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end }}
+
+{{/*
+Middleware name
+*/}}
+{{- define "basic-app.middleware-name" -}}
+traefik.ingress.kubernetes.io/router.middlewares: {{ .Release.Namespace }}-{{ include "basic-app.fullname" . }}-middleware@kubernetescrd
+{{- end }}
