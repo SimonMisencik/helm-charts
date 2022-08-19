@@ -26,3 +26,8 @@ spec:
             - name: http
               containerPort: {{ .Values.image.port }}
               protocol: TCP
+          env:
+            - name: MY_POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
