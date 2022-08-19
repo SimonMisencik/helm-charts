@@ -26,7 +26,7 @@ ingress:
     # ---
     # General:
     # kubernetes.io/ingress.class: traefik
-    #  
+    #
     # TLS configuration:
     # traefik.ingress.kubernetes.io/router.entrypoints: web, websecure
     # traefik.ingress.kubernetes.io/router.tls: "true"
