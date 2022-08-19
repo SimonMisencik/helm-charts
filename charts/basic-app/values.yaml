@@ -29,3 +29,7 @@ ingress:
       paths:
         - path: /
           pathType: ImplementationSpecific
+
+middleware:
+  enabled: false
+  stripPrefix:

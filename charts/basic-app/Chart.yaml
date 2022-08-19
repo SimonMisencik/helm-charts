@@ -1,9 +1,19 @@
 apiVersion: v2
 name: basic-app
-description: A Helm chart for Kubernetes
+version: 1.0.0
+description: Basic template for application deployment
 type: application
-version: 0.1.0
-appVersion: "1.0.1"
+keywords:
+  - debug
+home: https://github.com/SimonMisencik/helm-charts
+sources:
+  - https://github.com/SimonMisencik/helm-charts/tree/main/charts/basic-app
 maintainers:
   - name: SimonMisencik
     email: simon.misencik@gmail.com
+icon: https://cdn-icons-png.flaticon.com/512/1875/1875660.png
+appVersion: "1.0.1"
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: Initial release
