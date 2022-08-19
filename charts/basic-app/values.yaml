@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: ovhplatform/what-is-my-pod:1.0.1
+  repository: ovhplatform/what-is-my-pod
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
