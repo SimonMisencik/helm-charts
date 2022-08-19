@@ -1,5 +1,29 @@
 apiVersion: v1
 entries:
+  basic-app:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: Initial release
+    apiVersion: v2
+    appVersion: 1.0.1
+    created: "2022-08-19T09:53:52.300112566Z"
+    description: Basic template for application deployment
+    digest: 05a1b36db1e34974bb59e0da00a1e96d1054bff2c16a6e668b0a0ef0390a39e6
+    home: https://github.com/SimonMisencik/helm-charts
+    icon: https://cdn-icons-png.flaticon.com/512/1875/1875660.png
+    keywords:
+    - debug
+    maintainers:
+    - email: simon.misencik@gmail.com
+      name: SimonMisencik
+    name: basic-app
+    sources:
+    - https://github.com/SimonMisencik/helm-charts/tree/main/charts/basic-app
+    type: application
+    urls:
+    - https://github.com/SimonMisencik/helm-charts/releases/download/basic-app-1.0.0/basic-app-1.0.0.tgz
+    version: 1.0.0
   kali:
   - annotations:
       artifacthub.io/changes: |
@@ -165,4 +189,4 @@ entries:
     urls:
     - https://github.com/SimonMisencik/helm-charts/releases/download/ubuntu-1.0.0/ubuntu-1.0.0.tgz
     version: 1.0.0
-generated: "2022-05-25T08:29:10.431706932Z"
+generated: "2022-08-19T09:53:52.300139566Z"
