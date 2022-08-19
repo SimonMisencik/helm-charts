@@ -12,13 +12,13 @@ helm repo update
 ## Install Chart
 
 ```console
-helm install [RELEASE_NAME] basic-app
+helm install [RELEASE_NAME] open/basic-app
 ```
 
 ## Upgrading Chart
 
 ```console
-helm upgrade [RELEASE_NAME] basic-app
+helm upgrade [RELEASE_NAME] open/basic-app
 ```
 
 ## Uninstall Chart
