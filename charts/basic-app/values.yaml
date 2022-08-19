@@ -31,9 +31,6 @@ ingress:
     # traefik.ingress.kubernetes.io/router.entrypoints: web, websecure
     # traefik.ingress.kubernetes.io/router.tls: "true"
     # traefik.ingress.kubernetes.io/router.tls.certresolver: "production"
-    #  
-    # Middleware:
-    # traefik.ingress.kubernetes.io/router.middlewares: dev-test-dev-stripprefix@kubernetescrd
   hosts:
     - host: "test.com"
       paths:
