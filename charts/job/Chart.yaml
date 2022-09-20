@@ -1,0 +1,18 @@
+apiVersion: v2
+name: job
+version: 1.0.0
+description: A Helm chart for Kubernetes Job
+keywords:
+  - job
+home: https://github.com/SimonMisencik/helm-charts
+sources:
+  - https://github.com/SimonMisencik/helm-charts
+maintainers:
+  - name: SimonMisencik
+    email: simon.misencik@gmail.com
+icon: https://cdn-icons-png.flaticon.com/512/942/942800.png
+appVersion: "1.16.0"
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: First release
