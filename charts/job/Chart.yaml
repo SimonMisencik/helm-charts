@@ -11,7 +11,7 @@ maintainers:
   - name: SimonMisencik
     email: simon.misencik@gmail.com
 icon: https://cdn-icons-png.flaticon.com/512/942/942800.png
-appVersion: "1.16.0"
+appVersion: "1.0.0"
 annotations:
   artifacthub.io/changes: |
     - kind: added
