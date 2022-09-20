@@ -5,6 +5,7 @@ metadata:
   labels:
     {{- include "job.labels" . | nindent 4 }}
 spec:
+  ttlSecondsAfterFinished: {{ .Values.ttlSecondsAfterFinished }}
   template:
     spec:
       restartPolicy: {{ .Values.restartPolicy }}
