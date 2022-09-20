@@ -1,0 +1,14 @@
+# Default values for job.
+
+image:
+  repository: ubuntu
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+imagePullSecrets: []
+restartPolicy: OnFailure
+command: '["bash", "-c", "sleep 365d"]'
+
+extraInitContainers:
+
+env:

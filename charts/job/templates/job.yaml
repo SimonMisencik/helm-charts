@@ -1,0 +1,27 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{ include "job.fullname" . }}
+  labels:
+    {{- include "job.labels" . | nindent 4 }}
+spec:
+  template:
+    spec:
+      restartPolicy: {{ .Values.restartPolicy }}
+      {{- with .Values.imagePullSecrets }}
+      imagePullSecrets:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.extraInitContainers }}
+      initContainers:
+      {{- toYaml . | nindent 8 }}
+      {{- end }}
+      containers:
+      - name: {{ .Chart.Name }}
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        command: {{ .Values.command }}
+        env:
+          {{- range $key, $val := .Values.env }}
+          - name: {{ $key | quote }}
+            value: {{ $val | quote }}
+          {{- end }}
