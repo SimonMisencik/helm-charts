@@ -1,4 +1,4 @@
-# ubuntu
+# job
 
 A Helm chart for Kubernetes Job
 
