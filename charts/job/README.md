@@ -34,6 +34,7 @@ helm uninstall [RELEASE_NAME]
 | `image.repository` | Image repository | `ubuntu` |
 | `image.pullPolicy` | Image pull policy | `IfNotPresent` |
 | `image.tag` | Image tag | `"latest"` |
+| `ttlSecondsAfterFinished` | Time to delete job from deployment | `10` |
 | `imagePullSecrets` | Pull secrets for images | `[]` |
 | `restartPolicy` | Restart policy for job container | `OnFailure` |
 | `command` | Command for container | `'["bash", "-c", "sleep 365d"]'` |
