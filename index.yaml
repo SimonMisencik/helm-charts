@@ -24,6 +24,29 @@ entries:
     urls:
     - https://github.com/SimonMisencik/helm-charts/releases/download/basic-app-1.0.0/basic-app-1.0.0.tgz
     version: 1.0.0
+  job:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: First release
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-09-20T07:56:15.164322457Z"
+    description: A Helm chart for Kubernetes Job
+    digest: 55b17df5bbca362d5c6a4efe97837dc437a1a1b2ea56ca186399da93cd40e66a
+    home: https://github.com/SimonMisencik/helm-charts
+    icon: https://cdn-icons-png.flaticon.com/512/942/942800.png
+    keywords:
+    - job
+    maintainers:
+    - email: simon.misencik@gmail.com
+      name: SimonMisencik
+    name: job
+    sources:
+    - https://github.com/SimonMisencik/helm-charts
+    urls:
+    - https://github.com/SimonMisencik/helm-charts/releases/download/job-1.0.0/job-1.0.0.tgz
+    version: 1.0.0
   kali:
   - annotations:
       artifacthub.io/changes: |
@@ -189,4 +212,4 @@ entries:
     urls:
     - https://github.com/SimonMisencik/helm-charts/releases/download/ubuntu-1.0.0/ubuntu-1.0.0.tgz
     version: 1.0.0
-generated: "2022-08-19T09:53:52.300139566Z"
+generated: "2022-09-20T07:56:15.164342257Z"
