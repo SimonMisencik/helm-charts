@@ -15,4 +15,4 @@ appVersion: "1.0.0"
 annotations:
   artifacthub.io/changes: |
     - kind: added
-      description: First release
+      description: Add ttlSecondsAfterFinished specification option
