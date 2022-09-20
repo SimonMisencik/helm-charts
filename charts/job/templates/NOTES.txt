@@ -1,1 +1,1 @@
-Your job wass deployed!
+Your job was deployed!
