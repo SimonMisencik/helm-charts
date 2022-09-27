@@ -5,5 +5,6 @@ chart-dirs:
   - charts
 chart-repos:
   - arango=https://arangodb.github.io/kube-arangodb
+  - frinx=https://FRINXio.github.io/helm-charts
 helm-extra-args: --timeout 600s
 
