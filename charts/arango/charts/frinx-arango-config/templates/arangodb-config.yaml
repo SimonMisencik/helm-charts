@@ -3,7 +3,7 @@ kind: "ArangoDeployment"
 metadata:
   name: "arangodb"
 spec:
-  mode: Cluster
+  mode: Single
   tls:
     caSecretName: None
   auth:
