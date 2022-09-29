@@ -1,9 +1,0 @@
-dependencies:
-- name: frinx-arango-config
-  repository: https://FRINXio.github.io/helm-charts
-  version: 1.0.0
-- name: kube-arangodb
-  repository: https://arangodb.github.io/kube-arangodb
-  version: 1.2.15
-digest: sha256:8f154026a2b7b5360f4496eb2ec054837b8733b411208f432664aee29f877c74
-generated: "2022-09-27T15:44:07.865126958+02:00"
