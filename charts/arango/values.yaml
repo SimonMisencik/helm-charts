@@ -1,5 +1,5 @@
-#frinx-arangodb:
-#  enabled: true
+frinx-arangodb:
+  enabled: true
 #  arangodb_config:
 #    image:
 #      tag: "3.9.1"
