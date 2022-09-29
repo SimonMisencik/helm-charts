@@ -13,14 +13,14 @@
 kube-arangodb:
   operator:
     replicaCount: 1
-    args:
-    - --shutdown.delay=5m
-  rbac:
-    enabled: true
-    extensions:
-      monitoring: false
-      acs: false
-      at: false
+ #   args:
+ #   - --shutdown.delay=5m
+ # rbac:
+ #   enabled: true
+ #   extensions:
+ #     monitoring: false
+ #     acs: false
+ #     at: false
 
 #  resources:
 #    limits:
