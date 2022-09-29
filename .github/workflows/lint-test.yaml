@@ -37,8 +37,8 @@ jobs:
           helm env
           helm plugin install https://github.com/quintush/helm-unittest.git --version 0.2.8
 
-      - name: Run chart-testing (lint)
-        run: ct lint --config .github/ct_config.yaml
+      #- name: Run chart-testing (lint)
+      #  run: ct lint --config .github/ct_config.yaml
 
       - name: Create kind cluster
         uses: helm/kind-action@v1.2.0
