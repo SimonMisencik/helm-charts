@@ -11,8 +11,8 @@
 #    password: frinx
 
 kube-arangodb:
-  operator:
-    replicaCount: 1
+ # operator:
+ #   replicaCount: 1
  #   args:
  #   - --shutdown.delay=5m
  # rbac:
