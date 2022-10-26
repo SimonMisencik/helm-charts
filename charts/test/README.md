@@ -31,6 +31,6 @@ helm uninstall [RELEASE_NAME]
 
 | Parameter | Description | Default |
 |-----------|-------------|---------|
-| `image.repository` | Image repository | `kalilinux/kali-rolling` |
+| `image.repository` | Image repository | `nginx` |
 | `image.pullPolicy` | Image pull policy | `IfNotPresent` |
 | `image.tag` | Image tag | `""` |
