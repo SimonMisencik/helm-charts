@@ -1,6 +1,6 @@
-# kali
+# test
 
-Kali pod for penetration testing of cluster
+test pod for penetration testing of cluster
 
 ## Get Repo Info
 
@@ -12,13 +12,13 @@ helm repo update
 ## Install Chart
 
 ```console
-helm install [RELEASE_NAME] open/kali
+helm install [RELEASE_NAME] open/test
 ```
 
 ## Upgrading Chart
 
 ```console
-helm upgrade [RELEASE_NAME] open/kali
+helm upgrade [RELEASE_NAME] open/test
 ```
 
 ## Uninstall Chart
