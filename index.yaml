@@ -114,6 +114,20 @@ entries:
     urls:
     - https://github.com/SimonMisencik/helm-charts/releases/download/kali-1.0.0/kali-1.0.0.tgz
     version: 1.0.0
+  test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-26T05:23:58.857384812Z"
+    description: A Helm chart for Kubernetes
+    digest: 6d6d23c9af9fda2a45aae2b5fc4072ce35b917fbc86dea27da22d8cc2795f977
+    maintainers:
+    - email: simon.misencik@gmail.com
+      name: SimonMisencik
+    name: test
+    type: application
+    urls:
+    - https://github.com/SimonMisencik/helm-charts/releases/download/test-0.1.0/test-0.1.0.tgz
+    version: 0.1.0
   ubuntu:
   - annotations:
       artifacthub.io/changes: |
@@ -234,4 +248,4 @@ entries:
     urls:
     - https://github.com/SimonMisencik/helm-charts/releases/download/ubuntu-1.0.0/ubuntu-1.0.0.tgz
     version: 1.0.0
-generated: "2022-09-20T13:25:16.42597027Z"
+generated: "2022-10-26T05:23:58.857414414Z"
