@@ -1,6 +1,6 @@
-# test
+# nginx
 
-test pod for penetration testing of cluster
+nginx pod for penetration nginxing of cluster
 
 ## Get Repo Info
 
@@ -12,13 +12,13 @@ helm repo update
 ## Install Chart
 
 ```console
-helm install [RELEASE_NAME] open/test
+helm install [RELEASE_NAME] open/nginx
 ```
 
 ## Upgrading Chart
 
 ```console
-helm upgrade [RELEASE_NAME] open/test
+helm upgrade [RELEASE_NAME] open/nginx
 ```
 
 ## Uninstall Chart
