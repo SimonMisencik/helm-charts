@@ -5,11 +5,10 @@ image:
   pullPolicy: IfNotPresent
   tag: "latest"
 
-ttlSecondsAfterFinished: 10
 imagePullSecrets: []
 restartPolicy: OnFailure
 command: '["bash", "-c", "sleep 365d"]'
-
+annotations: {}
 extraInitContainers:
 
 env:
