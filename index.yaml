@@ -28,6 +28,30 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: added
+          description: Add option to add annotations
+        - kind: removed
+          description: Remove ttlSecondsAfterFinished option
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-12-07T15:53:42.478161123Z"
+    description: A Helm chart for Kubernetes Job
+    digest: 33056e52e14cba60c428327d6fc0e1981ea74de7a58e03a803f6e052524544a0
+    home: https://github.com/SimonMisencik/helm-charts
+    icon: https://cdn-icons-png.flaticon.com/512/942/942800.png
+    keywords:
+    - job
+    maintainers:
+    - email: simon.misencik@gmail.com
+      name: SimonMisencik
+    name: job
+    sources:
+    - https://github.com/SimonMisencik/helm-charts
+    urls:
+    - https://github.com/SimonMisencik/helm-charts/releases/download/job-2.0.0/job-2.0.0.tgz
+    version: 2.0.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
           description: Add ttlSecondsAfterFinished specification option
     apiVersion: v2
     appVersion: 1.0.0
@@ -248,4 +272,4 @@ entries:
     urls:
     - https://github.com/SimonMisencik/helm-charts/releases/download/ubuntu-1.0.0/ubuntu-1.0.0.tgz
     version: 1.0.0
-generated: "2022-10-26T05:41:22.527289999Z"
+generated: "2022-12-07T15:53:42.478182623Z"
