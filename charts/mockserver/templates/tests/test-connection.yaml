@@ -8,8 +8,8 @@ metadata:
     "helm.sh/hook": test
 spec:
   containers:
-    - name: wget
-      image: busybox
+    - name: curl
+      image: radial/busyboxplus:curl
       command: ['curl']
       args: ['-v', '-s', '-X', 'PUT', '{{ include "mockserver.fullname" . }}:{{ .Values.service.port }}/status']
   restartPolicy: Never
