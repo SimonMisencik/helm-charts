@@ -138,6 +138,26 @@ entries:
     urls:
     - https://github.com/SimonMisencik/helm-charts/releases/download/kali-1.0.0/kali-1.0.0.tgz
     version: 1.0.0
+  mockserver:
+  - apiVersion: v2
+    appVersion: 5.15.0
+    created: "2023-02-10T15:12:12.281442141Z"
+    description: A Helm chart for mockserver in Kubernetes
+    digest: 8f6a53b25c64c0c37b0bf70e6856e880794baa05f5f31d32c29f377ba4b673a4
+    home: https://github.com/SimonMisencik/helm-charts
+    icon: https://pics.freeicons.io/uploads/icons/png/18449610531586788036-512.png
+    keywords:
+    - mockserver
+    maintainers:
+    - email: simon.misencik@gmail.com
+      name: SimonMisencik
+    name: mockserver
+    sources:
+    - https://github.com/SimonMisencik/helm-charts/tree/main/charts/mockserver
+    type: application
+    urls:
+    - https://github.com/SimonMisencik/helm-charts/releases/download/mockserver-1.0.0/mockserver-1.0.0.tgz
+    version: 1.0.0
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -272,4 +292,4 @@ entries:
     urls:
     - https://github.com/SimonMisencik/helm-charts/releases/download/ubuntu-1.0.0/ubuntu-1.0.0.tgz
     version: 1.0.0
-generated: "2022-12-07T15:53:42.478182623Z"
+generated: "2023-02-10T15:12:12.281738442Z"
