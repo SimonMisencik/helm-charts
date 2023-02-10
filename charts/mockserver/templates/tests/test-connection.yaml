@@ -10,6 +10,6 @@ spec:
   containers:
     - name: wget
       image: busybox
-      command: ['wget']
-      args: ['{{ include "mockserver.fullname" . }}:{{ .Values.service.port }}/status']
+      command: ['curl']
+      args: ['-v', '-s', '-X', 'PUT', '{{ include "mockserver.fullname" . }}:{{ .Values.service.port }}/status']
   restartPolicy: Never
