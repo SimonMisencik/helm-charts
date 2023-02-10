@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: frinx/topology-discovery-mockserver
+  repository: mockserver/mockserver
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.0.0"
+  tag: ""
 
 imagePullSecrets: []
 nameOverride: ""
@@ -75,5 +75,3 @@ tolerations: []
 affinity: {}
 
 extraEnv:
-  MOCKSERVER_WATCH_INITIALIZATION_JSON: true
-  MOCKSERVER_INITIALIZATION_JSON_PATH: "/data/default_topology/*.json"
