@@ -13,3 +13,10 @@ maintainers:
     email: simon.misencik@gmail.com
 icon: https://pics.freeicons.io/uploads/icons/png/18449610531586788036-512.png
 appVersion: "5.15.0"
+annotations:
+  artifacthub.io/changes: |
+    - kind: fixed
+      description: Fix healcheck problem and add option to add containerPort
+      links:
+        - name: GitHub PR
+          url: https://github.com/simonmisencik/helm-charts/pull/18
