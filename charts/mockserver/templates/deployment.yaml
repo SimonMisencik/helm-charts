@@ -38,22 +38,8 @@ spec:
           {{- end }}
           ports:
             - name: http
-              containerPort: 1080
+              containerPort: {{ .Values.service.containerPort }}
               protocol: TCP
-          readinessProbe:
-            tcpSocket:
-              port: http
-            initialDelaySeconds: 2
-            periodSeconds: 2
-            successThreshold: 1
-            failureThreshold: 10
-          livenessProbe:
-            tcpSocket:
-              port: http
-            initialDelaySeconds: 10
-            periodSeconds: 5
-            successThreshold: 1
-            failureThreshold: 10
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}

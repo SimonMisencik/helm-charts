@@ -39,6 +39,7 @@ securityContext: {}
 service:
   type: ClusterIP
   port: 1080
+  containerPort: 1080
 
 ingress:
   enabled: false

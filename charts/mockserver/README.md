@@ -40,6 +40,7 @@ helm uninstall [RELEASE_NAME]
 | `fullnameOverride` |  Completely replaces the generated name | `""` |
 | `service.type` | Kubernetes service type | `ClusterIP` |
 | `service.port` | Kubernetes port where service is exposed | `1080` |
+| `service.containerPort` | Kubernetes container port | `1080` |
 | `ingress.enabled` | Enables Ingress | `false` |
 | `ingress.annotations` | Ingress annotations (values are templated) | `{}` |
 | `ingress.hosts` | Ingress accepted hostnames  | `[]` |
