@@ -139,6 +139,32 @@ entries:
     - https://github.com/SimonMisencik/helm-charts/releases/download/kali-1.0.0/kali-1.0.0.tgz
     version: 1.0.0
   mockserver:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
+          description: Fix healcheck problem and add option to add containerPort
+          links:
+            - name: GitHub PR
+              url: https://github.com/simonmisencik/helm-charts/pull/18
+    apiVersion: v2
+    appVersion: 5.15.0
+    created: "2023-04-13T12:52:45.228113592Z"
+    description: A Helm chart for mockserver in Kubernetes
+    digest: 4c871d1d14b8de71077b67d278eb101933d934885ffa6d81ce81243d90a5a78b
+    home: https://github.com/SimonMisencik/helm-charts
+    icon: https://pics.freeicons.io/uploads/icons/png/18449610531586788036-512.png
+    keywords:
+    - mockserver
+    maintainers:
+    - email: simon.misencik@gmail.com
+      name: SimonMisencik
+    name: mockserver
+    sources:
+    - https://github.com/SimonMisencik/helm-charts/tree/main/charts/mockserver
+    type: application
+    urls:
+    - https://github.com/SimonMisencik/helm-charts/releases/download/mockserver-1.1.0/mockserver-1.1.0.tgz
+    version: 1.1.0
   - apiVersion: v2
     appVersion: 5.15.0
     created: "2023-02-10T15:12:12.281442141Z"
@@ -292,4 +318,4 @@ entries:
     urls:
     - https://github.com/SimonMisencik/helm-charts/releases/download/ubuntu-1.0.0/ubuntu-1.0.0.tgz
     version: 1.0.0
-generated: "2023-02-10T15:12:12.281738442Z"
+generated: "2023-04-13T12:52:45.228142093Z"
