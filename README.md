@@ -14,4 +14,3 @@ helm repo add open https://simonmisencik.github.io/helm-charts
 ```
 
 You can then run `helm search repo open/` to see the charts.
-
